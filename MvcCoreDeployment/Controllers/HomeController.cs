@@ -14,7 +14,7 @@ namespace MvcCoreDeployment.Controllers {
             ViewData["SALUDO"] = "Bienvenido a los lunes!!!!!";
             Random random = new Random();
             List<int> numeros = new List<int>();
-            for (int i = 1; i <= 10; i++) {
+            for (int i = 1; i <= 15; i++) {
                 numeros.Add(random.Next(1, 100));
             }
             return View(numeros);
